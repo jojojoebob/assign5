@@ -132,7 +132,7 @@ switch(gameState)
       {
         if(shootY[j]>0&&isHit(enemyX[i],enemyY[i],60,60,shootX[j],shootY[j],35,35))
         {
-          enemyY[i]=-600;
+          enemyY[i]=-6000;
           shootY[j]=-35;
           scoreChange(999);
         }
